@@ -84,6 +84,8 @@ const app = {
 
                     if (res.err == false) { // checks if any error is conformed by server
 
+                        this.total = res.total; // sync the total question count
+
                         document.getElementById("num-count").innerHTML = this.Qcount; // updating current question count in title | in html
 
                         document.getElementById("total-num-count").innerHTML = this.total; //  updating totla number of questons  
