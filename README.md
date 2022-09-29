@@ -9,6 +9,10 @@
 >
 >* Gives a good idea on EJS and EXPRESS
 
+**PREVIEW**
+
+![Image of the result page](https://remindev.github.io/quiz-game/info/thump.png)
+
 **IMPLIMENTATION**
 
 As usual at first you need to run node initializing command
