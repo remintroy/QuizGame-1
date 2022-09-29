@@ -12,7 +12,7 @@ import { games } from './db.js';
 
 const app = Express(); // initializing express app
 
-const port = 4501; // declaring port number
+const port = 80; // declaring port number
 
 const appInfo = { //  app info which can be used in pages
     name: "Quiz"
