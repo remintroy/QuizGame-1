@@ -13,6 +13,8 @@
 
 ![Image of the result page](https://remindev.github.io/quiz-game/info/thump.png)
 
+**Take a look at : [Hosted Link](https://reminz-quiz-game.herokuapp.com/)**
+
 **IMPLIMENTATION**
 
 As usual at first you need to run node initializing command
