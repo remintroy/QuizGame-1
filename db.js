@@ -6,7 +6,7 @@
 export const games = {
     quiz: {
         Q1: {
-            question: "Node.js is written in ?",
+            question: "Node.js is written for ?",
             options: [
                 "Java Script",
                 "C",
