@@ -4,44 +4,48 @@
 <!--  this page is a simple custom 404 error page -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404</title>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404</title>
+  <script>
+    window.base_url = '<%=base_url%>'
+  </script>
 </head>
 
 <body>
 
-    <!-- some basic stiles -->
-    <style>
-        /* importing poppins font */
-        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-        *{
-            padding: 0;
-            margin: 0;
-            outline: 0;
-        }
-        html {
-            height: 100%;
-            font-family: 'Poppins', sans-serif;
-        }
+  <!-- some basic stiles -->
+  <style>
+    /* importing poppins font */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-        body {
-            background: linear-gradient(to top right, rgb(209, 137, 137) , rgb(102, 102, 199));
+    * {
+      padding: 0;
+      margin: 0;
+      outline: 0;
+    }
 
-            height: 100%;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: rgb(34, 34, 34);
-        }
-    </style>
-    
-    <!-- error message text -->
-    <h1>Oops, Thats an error ! 404</h1>
-    
+    html {
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to top right, rgb(209, 137, 137), rgb(102, 102, 199));
+      /* background-color: white; */
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(34, 34, 34);
+    }
+  </style>
+
+  <!-- error message text -->
+  <h1>Oops, Thats an error ! 404</h1>
+
 </body>
 
 </html>

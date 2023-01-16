@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- 
+<!--
     this is main page containing quiz
     uses litle EJS 
     Created by Remin T Roy
 -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        <%= appName %>
-    </title>
-    <link rel="stylesheet" href="css/home.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    <%= appName %>
+  </title>
+  <script>
+    window.base_url = '<%=base_url%>'
+  </script>
+  <link rel="stylesheet" href="<%= base_url %>/css/home.css">
 </head>
 
 <body onload="init()">
 
-    <!-- main container -->
-    <div class="container">
+  <!-- main container -->
+  <div class="container">
 
-        <!-- title container -->
-        <h3 class="txt-dim">
-            <%=appName%> - Select the correct option <span class="right"><span id="num-count">-</span>/<span
-                        id="total-num-count">-</span></span>
-        </h3>
+    <!-- title container -->
+    <h3 class="txt-dim">
+      <%=appName%> - Select the correct option <span class="right"><span id="num-count">-</span>/<span id="total-num-count">-</span></span>
+    </h3>
 
-        <!-- question container -->
-        <div class="question">
-            <h4 id="question-cont">Loading...</h4>
-        </div>
-
-        <!-- option container || result container -->
-        <ul class="answer-options" id="ans-cont">
-
-        </ul>
-
+    <!-- question container -->
+    <div class="question">
+      <h4 id="question-cont">Loading...</h4>
     </div>
 
-    <script src="js/home.js"></script>
+    <!-- option container || result container -->
+    <ul class="answer-options" id="ans-cont">
+      <!-- Answers -->
+    </ul>
 
+  </div>
+  <script src="<%= base_url %>/js/home.js"></script>
 </body>
 
 </html>

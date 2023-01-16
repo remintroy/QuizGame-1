@@ -3,9 +3,7 @@
    Here is the place where data for quiz is stored edit or add more questions here 
    All the answers are validated in server.
 */
-
 export const games = {
-
     quiz: {
         Q1: {
             question: "Node.js is written in ?",
@@ -37,7 +35,7 @@ export const games = {
             ],
             answer: 1
         },
-        Q4:{
+        Q4: {
             question: "Which of the below method is used to return the current working directory of the process ?",
             options: [
                 "cwd()",
@@ -47,7 +45,7 @@ export const games = {
             ],
             answer: 0
         },
-        Q5:{
+        Q5: {
             question: "Which of the below is the correct syntax for installing the Nodemon in the Node.js application ?",
             options: [
                 "npm install -g nodemon",
@@ -58,7 +56,7 @@ export const games = {
             ],
             answer: 0
         },
-        Q6:{
+        Q6: {
             question: "Which type of application does not prefer the backend as node.js ?",
             options: [
                 "Single Page",
@@ -69,7 +67,7 @@ export const games = {
             ],
             answer: 2
         },
-        Q7:{
+        Q7: {
             question: "Which of the below options is correct about package.json in the node.js application?",
             options: [
                 "It is present in the root directory of any Node application.",
@@ -79,7 +77,7 @@ export const games = {
             ],
             answer: 3
         },
-        Q8:{
+        Q8: {
             question: "NodeJS runs on ...",
             options: [
                 "Server",
@@ -90,7 +88,7 @@ export const games = {
             ],
             answer: 0
         },
-        Q9:{
+        Q9: {
             question: "NodeJS support which of the following platform",
             options: [
                 "Windows",
@@ -100,7 +98,7 @@ export const games = {
             ],
             answer: 3
         },
-        Q10:{
+        Q10: {
             question: "To include the HTTP server in the node module, what function do we use?",
             options: [
                 "get()",
