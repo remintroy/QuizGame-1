@@ -11,9 +11,9 @@
 
 **PREVIEW**
 
-![Image of the result page](https://remindev.github.io/quiz-game/info/thump.png)
+![Image of the result page](https://remintroy.github.io/quiz-game/info/thump.png)
 
-**Take a look at : [Hosted Link](https://reminz-quiz-game.herokuapp.com/)**
+**Take a look at : [Hosted Link](https://game.remin.tk/quiz-a/)**
 
 **IMPLIMENTATION**
 
