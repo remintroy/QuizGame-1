@@ -11,7 +11,7 @@
 
 **PREVIEW**
 
-![Image of the result page](https://remintroy.github.io/quiz-game/info/thump.png)
+![Image of the result page](https://remintroy.github.io/QuizGame-1/info/thump.png)
 
 **Take a look at : [Hosted Link](https://game.remin.tk/quiz-a/)**
 
