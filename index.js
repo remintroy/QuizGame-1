@@ -4,15 +4,13 @@
  * Created By Remin T Roy
 */
 
-
-
 import Express from 'express'; // importing express libreary 
 
 import { games } from './db.js';
 
 const app = Express(); // initializing express app
 
-const port = process.env.PORT || 8080; // declaring port number
+const port = process.env.PORT || 6001; // declaring port number
 
 const appInfo = { //  app info which can be used in pages
     name: "Quiz"
