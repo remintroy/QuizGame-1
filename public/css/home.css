@@ -1,93 +1,109 @@
 /* importing font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    outline: 0;
+  padding: 0;
+  margin: 0;
+  outline: 0;
 }
 
 html {
-    height: 100%;
-    font-family: 'Poppins', sans-serif; /* adding imported font family */
+  height: 100%;
+  font-family: "Poppins", sans-serif; /* adding imported font family */
 }
 
 /* basic style and centering all elements in body */
 body {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: linear-gradient(to top right, rgb(209, 137, 137), rgb(102, 102, 199));
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    to top right,
+    rgb(209, 137, 137),
+    rgb(102, 102, 199)
+  );
 }
 
 /* dims text color */
 .txt-dim {
-    color: rgb(98, 98, 98);
+  color: rgb(98, 98, 98);
 }
 
 /* container */
 .container {
-    min-width: 500px;
-    min-height: 100px;
-    background-color: white;
-    box-shadow: 0 0 25px 20px rgba(0, 0, 0, 0.067);
-    border-radius: 15px;
-    padding: 35px;
-    position: relative;
+  min-width: 500px;
+  min-height: 100px;
+  background-color: white;
+  box-shadow: 0 0 25px 20px rgba(0, 0, 0, 0.067);
+  border-radius: 15px;
+  padding: 35px;
+  position: relative;
 }
 
 /* question progress number */
 .right {
-    position: absolute;
-    right: 35px;
+  position: absolute;
+  right: 35px;
 }
 
 /* quesion title */
 .question {
-    border-top: 1px solid rgba(0, 0, 0, 0.137);
-    margin-top: 5px;
-    padding-top: 25px;
-    width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.137);
+  margin-top: 5px;
+  padding-top: 25px;
+  width: 100%;
 }
 
 /* answer box ul */
 .answer-options {
-    list-style: none;
-    margin-top: 30px;
+  list-style: none;
+  margin-top: 30px;
 }
 
 /* answer box li */
 .answer-options li {
-    width: calc(100% - 40px);
-    height: 30px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: rgb(237, 237, 237);
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    user-select: none;
+  width: calc(100% - 40px);
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(237, 237, 237);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
 }
 
 /* answer li hower */
 .answer-options li:hover {
-    background-color: rgb(218, 209, 225);
+  background-color: rgb(218, 209, 225);
 }
 
 /* answer li on currect  */
 .answer-options li.correct {
-    background-color: rgb(131, 188, 80);
-    color: white;
-    font-weight: bold;
+  background-color: rgb(131, 188, 80);
+  color: white;
+  font-weight: bold;
 }
 
 /* answer li on wrong */
 .answer-options li.wrong {
-    background-color: rgb(219, 138, 138);
-    color: white;
-    font-weight: bold;
+  background-color: rgb(219, 138, 138);
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 0;
+    min-width: auto;
+    max-width: auto;
+  }
 }
