@@ -1,4 +1,3 @@
-
 /* 
    Here is the place where data for quiz is stored edit or add more questions here 
    All the answers are validated in server.
@@ -109,5 +108,4 @@ export const games = {
             answer: 1
         }
     }
-
 }
