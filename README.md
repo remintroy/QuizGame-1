@@ -13,8 +13,6 @@
 
 ![Preview image](https://github.com/remintroy/mc-quiz/assets/86014784/20258736-530a-4e8b-ab72-0dd355108eb7)
 
-**Take a look at : [Hosted Link](https://game.remin.tk/quiz-a/)**
-
 **IMPLIMENTATION**
 
 As usual at first you need to run node initializing command
